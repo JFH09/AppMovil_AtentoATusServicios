@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="8dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImagenView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:civ_border_width="2dp"
+        android:background="@color/placeholder_bg"
+
+        ></de.hdodenhof.circleimageview.CircleImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <View
+            android:id="@+id/titulo_Servicio"
+            android:layout_width="110dp"
+            android:layout_height="20dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginStart="8dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:text="Titulo Servicio"
+            android:background="@color/placeholder_bg"></View>
+        <View
+            android:id="@+id/valorServicio"
+            android:layout_width="150dp"
+            android:layout_height="12dp"
+            android:layout_marginStart="8dp"
+            android:text="El valor $$$"
+            android:background="@color/placeholder_bg"></View>
+    </LinearLayout>
+
+</LinearLayout>
